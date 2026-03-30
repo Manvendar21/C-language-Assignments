@@ -2,24 +2,24 @@
                                                                         total marks and percentage*/ 
 int main()
 {
-    int marks[5];     // to store marks of 5 subjects
-    int i, total = 0; // loop variable and total marks
-    float percentage; // to store percentage
-    int pass = 1;     // 1 means pass, 0 means fail
+    int marks[5];     
+    int i, total = 0; 
+    float percentage; 
+    int pass = 1;     
 
     printf("Enter marks of 5 subjects:\n");
 
     for (i = 0; i < 5; i++){
 
-        scanf("%d", &marks[i]);   // take marks
-        total = total + marks[i]; // add marks
+        scanf("%d", &marks[i]);   
+        total = total + marks[i]; 
 
-        if (marks[i] < 40) // if any subject is less than 40
+        if (marks[i] < 40) 
         {
-            pass = 0;     // student fails
+            pass = 0;   
         }
     }
-    percentage = total / 5.0; // calculate percentage
+    percentage = total / 5.0; 
 
     printf("Total Marks = %d\n", total);
     printf("Percentage = %f\n", percentage);
@@ -42,5 +42,5 @@ int main()
             printf("Grade: Just Passed\n");
     }
 
-    return 0; // end
+    return 0; 
 }
