@@ -1,5 +1,5 @@
-#include <stdio.h>                                                         /*This program calculates
-                                                                        total marks and percentage*/ 
+#include <stdio.h>                                                        
+                                                                        
 int main()
 {
     int marks[5];     
